@@ -20,6 +20,7 @@ namespace MSSqlRestApi
     {
         public Startup(IHostingEnvironment env)
         {
+            // OPt
             // Set up configuration sources.
             var builder = new ConfigurationBuilder().SetBasePath(env.ContentRootPath);
             Configuration = builder.Build();
